@@ -1,0 +1,402 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+html{
+scroll-behavior: smooth;
+}
+.navbar-brand{
+  font-size: 2rem;
+  color:black;
+  font-family: 'Lobster', cursive;
+}
+.navbar-brand:hover,.navbar-brand:active{
+  color:black;
+}
+.nav-link{
+margin-right: 10px;
+margin-left:10px;
+text-transform: uppercase;
+font-family: 'Rubik', sans-serif;
+color:black;
+transition: 6s ease;
+}
+.nav-link:hover{
+  text-decoration: underline;
+ 
+color:black;
+text-decoration-color:  rgb(248,26,92);
+}
+
+
+.search{
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  border: 2px solid rgb(248,26,92);
+  margin-right: -35px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.btn0{
+  height:40px;
+  width: 40%;
+  outline:none;
+  border:none;
+  background: rgb(248,26,92);
+  color:white;
+  font-weight: 700;
+  border-radius:60px;
+}
+
+.mainsection{
+  background: url("images/background.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width:100%;
+  height: 100vh;
+  background-position: 50% 50%;
+}
+
+.mainsection h1{
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: 'Rubik', sans-serif;
+}
+section .newcard{
+display: flex;
+width: 100%;
+height: 100vh;
+margin-bottom: 10px;
+}
+.newcard{
+
+width: 500px;
+height: 250px;
+
+}
+.contain{
+background: url("https://images.unsplash.com/photo-1612548403247-aa2873e9422d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80") no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+width:100%;
+height: 150vh;
+background-position: 50% 50%;
+
+}
+
+.contain h1{
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: 'Rubik', sans-serif;
+}
+.card{
+padding: 40px 30px;
+border-radius: 30px;
+}
+.card img{
+border-radius: 20px;
+}
+.btn1{
+  height: 40px;
+  width: 35%;
+  padding:0 5px;
+  border-radius: 60px;
+  background-color: rgb(248,26,92);
+  color:white;
+  font-weight: 700;
+  border:none;
+}
+
+:root {
+--primary-color: #007AF3;
+}
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+.contain{
+width:100%;
+min-height: 100vh;
+background-color: #f7f7f7;
+
+}
+.contain .rw{
+width:85%;
+margin:auto;
+
+}
+.content-section{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+.content-section .card{
+flex:1;
+margin:40px 20px;
+}
+.content-section .card img{
+width:100%;
+height: auto;
+}
+.content-section .card h4{
+margin-top:20px;
+}
+.content-section .card p{
+font-size: 15px;
+color:#3d3d3d;
+line-height: 1.5;
+margin-top:10px;
+}
+.heading-section{
+width:60%;
+text-align:center;
+margin:auto;
+
+}
+
+.contain .rw .heading-section h1{
+padding-top: 30px;
+font-size: 42px;
+
+}
+.contain .rw .heading-section span{
+color:#ff0000;
+
+}
+.contain .rw .heading-section p{
+margin-top: 15px;
+color:#3d3d3d;
+font-size: 17px;
+line-height: 1.5rem;
+
+}
+
+
+
+article{
+  width:80%;
+
+  padding:20px;
+  margin:20px auto;
+  max-width: 700px;
+}
+.blog{
+  height:20px solid #fff;
+  padding: 20PX;
+  margin: 20px auto;
+  max-width: 700px;
+  margin-bottom: 20px;
+}
+.date{
+  color:#235a94;
+  letter-spacing:0.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.paragraph{
+  border-left:5px solid #2370a5;
+  padding-left: 5px;
+}
+h2{
+  font-size:2.0rem;
+
+}
+hr{
+  height:20px solid #fff;
+  padding: 20PX;
+  margin: 20px auto;
+  max-width: 700px;
+  margin-bottom: 20px;
+  border:0;
+  height:0;
+  border-top: 1px solid #6666;
+ 
+}
+.card:hover{
+  box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+
+  transition: 0.5s;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: .5em;
+}
+
+input, textarea {
+  width: 100%;
+  padding: .8em;
+  margin-bottom: 1em;
+  border-radius: .3em;
+  border: 1px solid gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  font-size: 1.3em;
+  border: none;
+  margin-bottom: 5em;
+  border-radius: 5em;
+  display: inline-block;
+  padding: .8em 2em;
+  width: unset;
+  cursor: pointer;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+}
+
+.Arrival{
+
+color:rgb(248,26,92);
+}    
+.video{
+
+margin: 0 auto;
+padding: 0 50px;;
+}
+
+.videocontainer{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+#vhead{
+margin:0 auto;
+
+}
+.video{
+
+background: url("") no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+width:100%;
+height: 100vh;
+background-position: 50% 50%;
+}
+
+#contact{
+margin: 30px 0;
+padding: 30px 50px;
+display: flex;
+justify-content: space-between;
+
+}
+.contactrow1{
+flex:1;
+width: 500px;
+height: 500px;
+}
+
+.outside{
+padding:0 20px;
+}
+iframe{
+width: 600px;
+height: 500px;
+}
+#btnform{
+
+width: 150px;
+height: 35px;
+margin-left: 40%;
+border-radius: 60px;
+padding: 0 5px;
+background-color: #ffffff;
+color:#bc6c25;
+border:2px solid #bc6c25;
+}
+.btnwish{
+
+  width: 150px;
+  height: 35px;
+  margin-left: 20%;
+  border-radius: 60px;
+  padding: 0 5px;
+  background-color: #ffffff;
+  color:#f72585;
+  border:2px solid #f72585;
+}
+@media(max-width:1192px){
+  #contact{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .outside{
+    margin-bottom: 50px;
+  }
+  
+    
+  
+}
+@media(max-width:1103px){
+  .videocontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    }
+
+    .mainsection h1{
+      font-size: 2rem;
+      font-weight: 700;
+      font-family: 'Rubik', sans-serif;
+    }
+
+    .video #paragraph{
+      font-size: 1em;
+      color:red;
+    }
+    #sidebyside{
+      float: left;
+      object-fit: cover;
+    }
+    
+
+}
+@media(max-width:740px){
+ 
+  .mainhead{
+font-size:10px;
+  }
+  .btn1{
+    font-size: 15px;
+  }
+}
+@media(max-width:500px){
+  .video #paragraph{
+    font-size: 0.4em;
+    color:red;
+  }
+}
+  @media(max-width:369px){
+    .mainhead{
+      font-size:5px;
+        }
+        .btn1{
+          font-size: 10px;
+        }
+
+}
